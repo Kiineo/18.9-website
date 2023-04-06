@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Vacation Rentals & Unique Homes</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pangolin&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="brand-name">Thinkfulbnb</div>
+      <nav>
+        <ul id="menu">
+          <li><a>Stay</a></li>
+          <li><a>About</a></li>
+          <li><a>Ideas</a></li>
+          <li><a>Host</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Register -->
+      <section id="Register">
+        <h2>Find the perfect vacation rental</h2>
+        <!-- Create a form here -->
+        <form>
+          <div>
+            <label for="name">Location:</label>
+            <input type="text" id="name" placeholder="Search Destination">
+          </div>
+          <div>
+            <label for="Arrive">Arrive:</label>
+            <input type="date" id="date">
+          </div>
+          <div>
+            <label for="Depart">Depart:</label>
+            <input type="date" id="date">
+          </div>
+          <div>
+            <label for="Type">Type:</label>
+            <select name="" id="Type">
+              <option disabled selected value="">Apartment</option>
+              <option value="">Barn</option>
+              <option value="">Castle</option>
+              <option value="">Houseboat</option>
+              <option value="">Tiny House</option>
+              <option value="">Yacht</option>
+              <option value="">Yurt</option>
+            </select>
+          </div>
+
+          <button type="Search">Search</button>
+        </form>
+      </section>
+
+      <!-- Ballin History -->
+      <section id="about" class="primary-bg">
+        <h2>About</h2>
+        <div>
+          <img src="https://images.coolhouseplans.com/plans/44207/44207-b600.jpg" alt="house1" />
+          <img src="https://s42814.pcdn.co/wp-content/uploads/2020/09/iStock_185930591-scaled.jpg.optimal.jpg" alt="house2">
+
+          <p>  When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      </section>
+
+      <!-- mount-rushmore -->
+      <section id="ideas">
+        <h2>Ideas</h2>
+        <div class="row">
+          <div class="col">
+            <h3>Forest retreats</h3>
+            <img
+              src="https://www.treehugger.com/thmb/nSp8ESJ1N6zq_bsTVL_MoSrKAqA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1273584292-cbcd5f85f4c646d58f7a7fa158dcaaeb.jpg"
+              alt="forest"
+            />
+            
+          </div>
+          <div class="col">
+            <h3>Beaches</h3>
+            <img src="https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg" alt="Beach" />
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>Rustic cabins</h3>
+            <img src="https://l.icdbcdn.com/oh/60907f50-c4d6-4044-9422-b536a7fdabfa.jpg" alt="cabin" />
+            
+          </div>
+          <div class="col">
+            <h3>Pet-friendly</h3>
+            <img src="https://www.thesprucepets.com/thmb/uQnGtOt9VQiML2oG2YzAmPErrHo=/5441x0/filters:no_upscale():strip_icc()/all-about-tabby-cats-552489-hero-a23a9118af8c477b914a0a1570d4f787.jpg" alt="cat" />
+            
+          </div>
+        </div>
+
+      </section>
+
+      <!-- handling -->
+      <section id="host" class="primary-bg">
+        <div>
+          <h2>Want to become a Thinkfulbnb Host?</h2>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+          <ul>
+            <li>The standard Lorem Ipsum passage, used since the 1500s</li>
+            <li>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</li>
+            <li>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</li>
+            <li>1914 translation by H. Rackham</li>
+            <li>The standard chunk of Lorem Ipsum used since the 1500s</li>
+          </ul>
+        </div>
+
+
+      </section>
+    </main>
+
+    <footer>
+      <p>© Thinkful</p>
+    </footer>
+  </body>
+</html>
